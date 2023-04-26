@@ -7,6 +7,17 @@ theme:
   logo: assets/logo.svg
   favicon: assets/images/favicon.png
 
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    # - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - toc.follow
+
   palette:
 
     # Palette toggle for automatic mode
@@ -63,3 +74,17 @@ markdown_extensions:
 copyright: >
   Copyright &copy; 2023 Eglinux –
   <a href="#__consent">更改 cookie 偏好</a>
+
+
+nav:
+  - 首页: index.md
+  - CMake:
+    - cmake/index.md
+  - Linux:
+    - linux/index.md
+  - C/C++:
+    - ccplus/index.md
+  - Python:
+    - python/index.md
+  - Qt:
+    - qt/index.md
