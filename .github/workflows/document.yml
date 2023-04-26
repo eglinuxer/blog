@@ -19,8 +19,9 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: sudo apt install pngquant 
+      - run: sudo apt install pngquant
       - run: pip install git+https://${MKDOCS}@github.com/squidfunk/mkdocs-material-insiders.git
+      - run: pip install jieba # adds search support for the Chinese language
       - run: mkdocs gh-deploy
 env:
   GH_TOKEN: ${{ secrets.GH_TOKEN }} 

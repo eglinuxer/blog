@@ -17,6 +17,9 @@ theme:
     - navigation.path
     - navigation.top
     - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
 
   palette:
 
@@ -44,6 +47,9 @@ plugins:
   - privacy:
       links_attr_map:
         target: _blank
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+
 
 extra:
   homepage: https://www.eglinux.com
