@@ -29,9 +29,21 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
 
+plugins:
+  - privacy:
+      links_attr_map:
+        target: _blank
+
 extra:
   homepage: https://www.eglinux.com
-
+  consent:
+    title: 同意 Cookie
+    actions:
+      - accept
+      - reject
+    description: >-
+      本站使用 cookie 来识别您的重复访问和偏好，以此来衡量本站文档的有效性以及您是否找到了需要的内容。
+      如果您同意的情况下，会使得本站的文档变得更好。
 
 extra_css:
   - stylesheets/extra.css
@@ -46,3 +58,8 @@ markdown_extensions:
       options:
         custom_icons:
           - overrides/.icons
+
+
+copyright: >
+  Copyright &copy; 2023 Eglinux –
+  <a href="#__consent">更改 cookie 偏好</a>
