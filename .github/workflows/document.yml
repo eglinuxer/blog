@@ -22,7 +22,7 @@ jobs:
       - run: sudo apt install pngquant
       - run: pip install git+https://${MKDOCS}@github.com/squidfunk/mkdocs-material-insiders.git
       - run: pip install jieba # adds search support for the Chinese language
-      - run: mkdocs gh-deploy
+      - run: mkdocs gh-deploy --force
 env:
   GH_TOKEN: ${{ secrets.GH_TOKEN }} 
   MKDOCS: ${{ secrets.MKDOCS }}
