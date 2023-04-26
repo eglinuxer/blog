@@ -4,6 +4,8 @@ theme:
   custom_dir: overrides
 
   language: zh
+  logo: assets/logo.svg
+  favicon: assets/images/favicon.png
 
   palette:
 
@@ -27,8 +29,20 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
 
+extra:
+  homepage: https://www.eglinux.com
+
+
 extra_css:
   - stylesheets/extra.css
 
 extra_javascript:
   - javascripts/extra.js
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
