@@ -19,9 +19,10 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: sudo apt install pngquant
+      - run: sudo apt install pngquant libcairo2-dev libfreetype6-dev libffi-dev libjpeg-dev libpng-dev libz-dev
       - run: pip install git+https://${MKDOCS}@github.com/squidfunk/mkdocs-material-insiders.git
       - run: pip install jieba # adds search support for the Chinese language
+      - run: pip install pillow cairosvg # for MkDocs to generate the social
       - run: mkdocs gh-deploy --force
 env:
   GH_TOKEN: ${{ secrets.GH_TOKEN }} 

@@ -1,4 +1,5 @@
 site_name: Eglinux
+site_description: 静下心来好好做自己，走稳脚下每一步，就是最好的路。
 theme:
   name: material
   custom_dir: overrides
@@ -49,6 +50,10 @@ plugins:
         target: _blank
   - search:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - social:
+      cards_font: Noto Sans SC
+  - typeset
+  - meta
 
 
 extra:
