@@ -15,6 +15,7 @@ theme:
     - navigation.tabs.sticky
     # - navigation.sections
     - navigation.expand
+    - navigation.indexes
     - navigation.path
     - navigation.top
     - toc.follow
@@ -51,9 +52,9 @@ plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
   - social:
-      cards_font: Noto Sans SC
-  - typeset
-  - meta
+      cards_layout: default/variant
+      cards_layout_options:
+        font_family: Noto Sans SC
 
 
 extra:
@@ -91,6 +92,20 @@ nav:
   - 首页: index.md
   - CMake:
     - cmake/index.md
+    - CMake 教程:
+      - cmake/tutorial/index.md
+      - 第 1 步：基本起点: cmake/tutorial/step1.md
+      - 第 2 步：添加一个库: cmake/tutorial/step2.md
+      - 第 3 步：为库添加使用要求: cmake/tutorial/step3.md
+      - 第 4 步：添加生成器表达式: cmake/tutorial/step4.md
+      - 第 5 步：安装和测试: cmake/tutorial/step5.md
+      - 第 6 步：添加测试面板的支持: cmake/tutorial/step6.md
+      - 第 7 步：添加系统自检: cmake/tutorial/step7.md
+      - 第 8 步：添加自定义命令和生成文件: cmake/tutorial/step8.md
+      - 第 9 步：打包安装程序: cmake/tutorial/step9.md
+      - 第 10 步：选择静态库或共享库: cmake/tutorial/step10.md
+      - 第 11 步：添加导出配置: cmake/tutorial/step11.md
+      - 第 12 步：打包调试和发布: cmake/tutorial/step12.md
   - Linux:
     - linux/index.md
   - C/C++:
