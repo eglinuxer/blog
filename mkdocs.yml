@@ -92,7 +92,7 @@ nav:
   - 首页: index.md
   - CMake:
     - cmake/index.md
-    - CMake 教程:
+    - CMake 基础教程:
       - cmake/tutorial/index.md
       - 第 1 步：基本起点: cmake/tutorial/step1.md
       - 第 2 步：添加一个库: cmake/tutorial/step2.md
@@ -106,6 +106,11 @@ nav:
       - 第 10 步：选择静态库或共享库: cmake/tutorial/step10.md
       - 第 11 步：添加导出配置: cmake/tutorial/step11.md
       - 第 12 步：打包调试和发布: cmake/tutorial/step12.md
+    - CMake 命令行速查:
+      - cmake/shell/index.md
+      - cmake: cmake/shell/cmake.md
+      - ctest: cmake/shell/ctest.md
+      - cpack: cmake/shell/cpack.md
   - Linux:
     - linux/index.md
   - C/C++:

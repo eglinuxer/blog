@@ -1,4 +1,4 @@
-# CMake 教程
+# CMake 基础教程
 
 本教程大部分内容来自：[CMake Turorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)，加上我自己的理解，总结归纳而成。
 
