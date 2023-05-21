@@ -6,7 +6,7 @@
 CMake 教程提供了一个分步指南，涵盖了 CMake 帮助解决的常见构建系统问题。了解各种主题如何在一个示例项目中一起工作会很有帮助。
 
 ## 学习步骤
-本教程的源码可以从 [eglinuxer/study_cmake](https://github.com/eglinuxer/study_cmake/tree/main/tutorial) 获取。每个步骤都有自己的子目录，该子目录可当作独立的项目。教程示例是渐进的，因此每个步骤都为上一步提出的问题提供完整的解决方案。
+本教程的源码可以从 [eglinuxer/study_cmake/tutorial](https://github.com/eglinuxer/study_cmake/tree/main/tutorial) 获取。每个步骤都有自己的子目录，该子目录可当作独立的项目。教程示例是渐进的，因此每个步骤都为上一步提出的问题提供完整的解决方案。
 
 - [第 1 步：基本起点]
     - [练习 1 - 构建一个基本项目]
